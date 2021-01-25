@@ -49,10 +49,11 @@
         const parsed = queryString.parse(location.hash)
         access_token = parsed.access_token
 
-        if (access_token) {
-            // remove token from url
+        // remove token from url
+        access_token &&
             window.history.replaceState({}, document.title, getAddress())
-        }
+
+        access_token && console.log('Access Token: ', access_token)
 
         if (access_token) {
             const episodes = await fetch(
