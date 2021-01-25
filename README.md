@@ -1,3 +1,8 @@
+# One Click Podcast
+Deployed at [richodemus.github.io/one-click-podcast](https://richodemus.github.io/one-click-podcast/)
+
+
+#Old readme here
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
