@@ -23,6 +23,7 @@
 
 	function logoutClick() {
 			access_token = null;
+			episodeToPlay = null;
 	}
 
 	function queueEpisode() {
@@ -73,8 +74,6 @@
 		<button on:click|once={queueEpisode}>
 			Add to queue
 		</button>
-	<!--{:else}-->
-	<!--	<p>No epsidode found :(</p>-->
 	{/if}
 </main>
 
