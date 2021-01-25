@@ -5,7 +5,9 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "validate": "svelte-check"
+    "validate": "svelte-check",
+    "pretty": "prettier --write --plugin-search-dir=. src",
+    "pretty-check": "prettier --check --plugin-search-dir=. src"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -21,7 +23,9 @@
     "@rollup/plugin-typescript": "^6.0.0",
     "typescript": "^3.9.3",
     "tslib": "^2.0.0",
-    "@tsconfig/svelte": "^1.0.0"
+    "@tsconfig/svelte": "^1.0.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.1.1"
   },
   "dependencies": {
     "query-string": "^6.13.8",
