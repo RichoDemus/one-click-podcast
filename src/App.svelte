@@ -91,7 +91,7 @@
                 )
 
             episodeToPlay = episodes.find((ep) =>
-                ep.name.includes($episodePattern)
+                ep.name.toLowerCase().includes($episodePattern.toLowerCase())
             )
         }
         loading = false
