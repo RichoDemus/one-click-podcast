@@ -1,6 +1,7 @@
 export const ekotId = '0p92p8lG4Gz8fhZvcwSMxD'
 export const clientId = 'd88b089d3c9f4376911d9f56565849fc'
 export const scope = 'user-modify-playback-state'
+export const defaultPattern = 'sammanfattning av dagens nyheter'
 
 export const getAddress = () => {
     if (isLocal()) {
@@ -15,4 +16,14 @@ function isLocal() {
         location.hostname === '127.0.0.1' ||
         location.hostname === ''
     )
+}
+
+interface EpisodeConfig {
+    id: string
+    pattern: string
+}
+
+export const ekotEpisodeConf: EpisodeConfig = {
+    id: '0p92p8lG4Gz8fhZvcwSMxD',
+    pattern: 'sammanfattning av dagens nyheter',
 }
