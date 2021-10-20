@@ -25,5 +25,5 @@ interface EpisodeConfig {
 
 export const ekotEpisodeConf: EpisodeConfig = {
     id: '0p92p8lG4Gz8fhZvcwSMxD',
-    pattern: 'sammanfattning av dagens nyheter',
+    pattern: 'sammanfattning',
 }
