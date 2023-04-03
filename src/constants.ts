@@ -1,7 +1,7 @@
 export const ekotId = '0p92p8lG4Gz8fhZvcwSMxD'
 export const clientId = 'd88b089d3c9f4376911d9f56565849fc'
 export const scope = 'user-modify-playback-state'
-export const defaultPattern = 'sammanfattning'
+export const defaultPattern = '16:45'
 
 export const getAddress = () => {
     if (isLocal()) {
@@ -25,5 +25,5 @@ interface EpisodeConfig {
 
 export const ekotEpisodeConf: EpisodeConfig = {
     id: '0p92p8lG4Gz8fhZvcwSMxD',
-    pattern: 'sammanfattning',
+    pattern: '16:45',
 }
